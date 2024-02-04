@@ -1,5 +1,5 @@
 ---
-title: "Unturned Guide Documentation"
+title: "Home"
 index: 1
 ---
 
