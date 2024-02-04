@@ -11,4 +11,5 @@ Changes will be and are handled via Github, if you want to contribute, please ch
 
 **Continue**:
 [Contributing](/contributing.html)
+
 [Getting Started](/getting_started.html)
