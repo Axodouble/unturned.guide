@@ -31,13 +31,13 @@ external_links:
 # QuickLinks go on top of the left navigation bar and
 # show on the quick search modal by default.
 quick_links:
-  - text: "Documentation"
-    link: "/"
     # Icons use google material icons
-    icon: "menu_book"
   - text: "Repository"
-    link: "https://github.com/paganotoni/doco"
+    link: "https://github.com/axodouble/unturned.guide"
     icon: "code"
+  - text: "Discord"
+    link: "https://discord.gg/Xx6WWxUdKS"
+    icon: "forum"
 
 
 # CTA button shows on the top right of the site.
