@@ -17,10 +17,10 @@ Be sure you have Unity installed, if that is not the case, go back to the [Prere
 
 ### Creating the project
 Open Unity Hub, and press the "New project" button.
-![New project.](starting/assets/22062d.png)
+![New project.](22062d.png)
 
 Select the correct version of Unity & the 3D template.
-![Unity version.](starting/assets/22369a.png)
+![Unity version.](22369a.png)
 
 Give a name & choose a location for your project, both can be whatever you want.
 
@@ -31,7 +31,7 @@ Once Unity has loaded, we will import the Unturned assets.
 These assets contain some example models, textures & prefabs, going through all of these will help give you an understanding of how to make different items and anything else for Unturned.
 
 Regardless, to import the assets, go to Steam and right click on Unturned, then press Manage -> Browse local files.
-![Browse local files.](starting/assets/7bb890.png)
+![Browse local files.](7bb890.png)
 
 Once you are in the Unturned Directory, go to the `Extras` -> `Sources` folder.
 
