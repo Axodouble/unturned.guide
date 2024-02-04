@@ -1,9 +1,9 @@
 ----
 # Name of the website, is used on the pages description and 
 # In the meta tags.
-name: Doco
-description: "Doco is a CLI tool to generate static documentation websites from markdown files."
-keywords: "keywords,for,seo"
+name: Unturned Moddders Guide
+description: "Unturned Modders Guide is a community-driven documentation website for modders to share and distribute their knowledge."
+keywords: "unturned modding, unturned mod tutorial, unturned modding tutorial, unturned guide, unturned modders guide"
 
 # Index defines where the pages in the root will be positioned.
 index: -1
@@ -47,5 +47,5 @@ quick_links:
 
 # Shows on each of the documentation pages
 # $YEAR is replaced with the current year.
-copy: "© $YEAR Doco"
+copy: "© $YEAR Doco & unturned.guide contributors"
 ----
