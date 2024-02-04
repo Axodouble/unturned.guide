@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Unturned Moddders Guide - Contributing </title>
+    <title>Unturned Moddders Guide - Getting Started </title>
     <meta name="description" content="Unturned Modders Guide is a community-driven documentation website for modders to share and distribute their knowledge.">
     <meta name="Keywords" content="unturned modding, unturned mod tutorial, unturned modding tutorial, unturned guide, unturned modders guide">
     
@@ -251,7 +251,7 @@ nav.documents h3 {
                 </ul>
 
                 <nav id="desktop-navigation">
-                    <nav class="documents"><h3>Docs</h3><ul><li class=""><a href="/docs\index.html">Unturned Guide Documentation</a></li><li class="active"><a href="/docs\contributing.html">Contributing</a></li><li class=""><a href="/docs\getting_started.html">Getting Started</a></li></ul></nav>
+                    <nav class="documents"><h3>Docs</h3><ul><li class=""><a href="/docs\index.html">Unturned Guide Documentation</a></li><li class=""><a href="/docs\contributing.html">Contributing</a></li><li class="active"><a href="/docs\getting_started.html">Getting Started</a></li></ul></nav>
                 </nav>            
             </div>
         </aside>
@@ -263,27 +263,72 @@ nav.documents h3 {
                 
                 
                 <h1 id="welcome" class="font-bold text-4xl mb-2">
-                    Contributing
+                    Getting Started
                 </h1>
                 
                 <div id="htmlcontainer" class="max-w-5xl">
-                    <p>To contribute you can modify the markdown files in the <code>docs</code> folder and then once complete you can open a pull request where @Axodouble will review the changes and merge them into the main branch, feel free to credit yourself in the pull request description and the document itself.</p>
-<p><strong>Continue</strong>:
-<a href="/getting_started.html">Getting Started</a></p>
+                    <p>Getting started with modding can be a bit of a hassle at first, but once you get the hang of it, it's a breeze. This guide will help you get started with modding in Unturned.</p>
+<h2 id="prerequisites">Prerequisites <a class="heading-anchor" alt="Link to this section" href="#prerequisites">#</a></h2>
+<p>Before you start modding, you will need to have the following installed:</p>
+<ul>
+<li>
+<p><a href="https://unity.com/download">Unity 2021.3.29f1</a></p>
+</li>
+<li>
+<p><a href="https://www.blender.org/">(Optional) Blender</a> or any other 3D modeling software.</p>
+</li>
+</ul>
+<h2 id="setting-up-unity">Setting up Unity <a class="heading-anchor" alt="Link to this section" href="#setting-up-unity">#</a></h2>
+<ol>
+<li>
+<p>Be sure you have Unity installed, if that is not the case, go back to the <a href="#prerequisites">Prerequisites</a> section and install it.</p>
+</li>
+<li>
+<p>Open Unity Hub, and press the &quot;New project&quot; button.
+<img src="assets/22062d.png" alt="New project."></p>
+</li>
+<li>
+<p>Select the correct version of Unity &amp; the 3D template.
+<img src="assets/22369a.png" alt="Unity version."></p>
+</li>
+<li>
+<p>Give a name &amp; choose a location for your project, both can be whatever you want.</p>
+</li>
+<li>
+<p>Once you have chosen a directory, press the &quot;Create project&quot; button.</p>
+</li>
+<li>
+<p>Once Unity has loaded, we will import the Unturned assets.
+These assets contain some example models, textures &amp; prefabs, going through all of these will help give you an understanding of how to make different items and anything else for Unturned.</p>
+</li>
+</ol>
+<p>Regardless, to import the assets, go to Steam and right click on Unturned, then press Manage -&gt; Browse local files.
+<img src="assets/7bb890.png" alt="Browse local files."></p>
+<p>Once you are in the Unturned Directory, go to the <code>Extras</code> -&gt; <code>Sources</code> folder.</p>
+<p>In this folder you will find to files with the extension <code>.unitypackage</code> / <code>Unity package file</code>, these are the assets we need to import into Unity.</p>
+<p>Start off by double clicking on <code>Project.unitypackage</code>, this will import the main project settings and hooks.
+After it is done importing, double click on the <code>ExampleAssets.unitypackage</code>, this will import the example assets.</p>
+<ol start="7">
+<li>Once you have imported the assets, we can open our 2 bundling tools, <code>Bundle Tool</code> &amp; <code>Master Bundle Tool</code>.</li>
+</ol>
+<p>You can open these by by going to <code>Window</code> -&gt; <code>Unturned</code> -&gt; <code>Bundle Tool</code> &amp; <code>Window</code> -&gt; <code>Unturned</code> -&gt; <code>Master Bundle Tool</code>.</p>
+<ol start="8">
+<li>Once you have opened the tools, you can start creating your own items, or you can start by modifying the example assets.</li>
+</ol>
 
                 </div>
 
                 <div class="grid grid-cols-2 gap-2 justify-between text-gray-600 pt-8">
                     <div>
                         
-                            <a class="p-3.5 px-5 flex border rounded-lg hover:shadow" href="/docs%5cindex.html">
+                            <a class="p-3.5 px-5 flex border rounded-lg hover:shadow" href="/docs%5ccontributing.html">
                                 <span class="flex flex-col">
                                     <span class="text-base">Previous </span>
                                     <span class="text-lg flex flex-row gap-3 font-bold">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
                                         </svg>
-                                        Unturned Guide Documentation 
+                                        Contributing 
                                     </span>
                                 </span>
                             </a>
@@ -291,18 +336,6 @@ nav.documents h3 {
                         
                     </div>
                     <div>
-                        
-                            <a class="p-3.5 px-5 border rounded-lg flex flex-row flex-row-reverse hover:shadow" href="/docs%5cgetting_started.html">
-                                <span class="flex flex-col text-right">
-                                    <span class="text-base">Next </span>
-                                    <span class="text-lg flex flex-row gap-2 font-bold">
-                                        Getting Started 
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                                        </svg>
-                                    </span>
-                                </span>
-                            </a>
                         
                     </div>
                 </div>
@@ -391,7 +424,7 @@ nav.documents h3 {
                     </li>
                                 
             </ul>
-            <nav class="documents"><h3>Docs</h3><ul><li class=""><a href="/docs\index.html">Unturned Guide Documentation</a></li><li class="active"><a href="/docs\contributing.html">Contributing</a></li><li class=""><a href="/docs\getting_started.html">Getting Started</a></li></ul></nav>
+            <nav class="documents"><h3>Docs</h3><ul><li class=""><a href="/docs\index.html">Unturned Guide Documentation</a></li><li class=""><a href="/docs\contributing.html">Contributing</a></li><li class="active"><a href="/docs\getting_started.html">Getting Started</a></li></ul></nav>
         </div>
     </nav>
     
