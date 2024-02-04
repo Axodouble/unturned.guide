@@ -9,7 +9,8 @@ This is intended to serve as a more advanced alternative and modding resource to
 
 Changes will be and are handled via Github, if you want to contribute, please check the [Github repository](https://github.com/axodouble/unturned.guide).
 
-**Continue**:
-[Contributing](/contributing.html)
+**Links**:
 
-[Getting Started](/getting_started.html)
+Look into [Contributing](/starting/contributing.html).
+
+How to mod, and [Getting Started](/starting/getting_started.html).
