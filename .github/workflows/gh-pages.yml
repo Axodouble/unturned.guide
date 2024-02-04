@@ -28,11 +28,12 @@ jobs:
       - name: Install doco
         run: go install github.com/paganotoni/doco/cmd/doco@latest
 
-      - run: Doco build
+      - name: Build doco
+        run: doco build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: "public"
-      - name: Deploy to GitHub Pages
+      - name: Deploy to unturned.guide
         id: deployment
         uses: actions/deploy-pages@v4
