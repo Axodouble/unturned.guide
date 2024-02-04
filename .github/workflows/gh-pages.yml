@@ -1,5 +1,5 @@
 name: Pages
-on: 
+on:
   push:
     branches:
       - main
@@ -12,7 +12,7 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
-    
+
 jobs:
   Build:
     name: build docs
@@ -25,14 +25,14 @@ jobs:
       - name: Setup Go ${{ matrix.go-version }}
         uses: actions/setup-go@v4
 
-      - name: install doco
+      - name: Install doco
         run: go install github.com/paganotoni/doco/cmd/doco@latest
 
-      - run: doco build
+      - run: Doco build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'public'
+          path: "public"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

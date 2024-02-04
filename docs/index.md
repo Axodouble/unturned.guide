@@ -3,7 +3,7 @@ title: "Unturned Guide Documentation"
 index: 1
 ---
 
-# Info
+## Info
 
 Introducing the newly created `unturned.guide` documentation website.
 
@@ -11,9 +11,6 @@ This is intended to serve as a more advanced alternative and modding resource to
 
 Changes will be and are handled via Github, if you want to contribute, please check the [Github repository](https://github.com/axodouble/unturned.guide).
 
-# Contributing
+## Contributing
 
 To contribute you can modify the markdown files in the `docs` folder and then once complete you can open a pull request where [@Axodouble](https://github.com/axodouble) will review the changes and merge them into the main branch, feel free to credit yourself in the pull request description and the document itself.
-
-**Links**:
-How to mod, and [Getting Started](/starting/getting_started.html).
