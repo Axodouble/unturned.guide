@@ -35,8 +35,8 @@ github: "https://github.com/axodouble/unturned.guide"
 
 external_links:
 
-- text: "Documentation"
-  link: "/"
+- text: "Discord"
+  link: "https://discord.gg/Xx6WWxUdKS"
 
 # QuickLinks go on top of the left navigation bar and
 
@@ -63,4 +63,4 @@ quick_links: # Icons use google material icons
 
 # $YEAR is replaced with the current year.
 
-## copy: "© $YEAR Doco & unturned.guide contributors"
+copy: "© $YEAR unturned.guide contributors"
