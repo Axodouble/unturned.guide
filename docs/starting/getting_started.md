@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-index: 3
+index: 1
 ---
 Getting started with modding can be a bit of a hassle at first, but once you get the hang of it, it's a breeze. This guide will help you get started with modding in Unturned.
 
