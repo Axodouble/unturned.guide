@@ -14,16 +14,16 @@ index: -1
 favicon: "/assets/favicon.png"
 
 logo:
-src: "/assets/logo.png"
-link: "https://discord.gg/Xx6WWxUdKS"
+  src: "/assets/logo.png"
+  link: "https://discord.gg/Xx6WWxUdKS"
 
 # Announcement is shown on the top of the site
 
 # next to the site logo
 
 announcement:
-text: "Help expand this documentation by contributing on Github!"
-link: "https://github.com/axodouble/unturned.guide"
+  text: "Help expand this documentation by contributing on Github!"
+  link: "https://github.com/axodouble/unturned.guide"
 
 # Social links are shown on the top right of the site
 
