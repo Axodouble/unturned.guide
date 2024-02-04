@@ -38,3 +38,7 @@ Start off by double clicking on `Project.unitypackage`, this will import the mai
 After it is done importing, double click on the `ExampleAssets.unitypackage`, this will import the example assets.
 
 7. Once you have imported the assets, we can open our 2 bundling tools, `Bundle Tool` & `Master Bundle Tool`.
+
+You can open these by by going to `Window` -> `Unturned` -> `Bundle Tool` & `Window` -> `Unturned` -> `Master Bundle Tool`.
+
+8. Once you have opened the tools, you can start creating your own items, or you can start by modifying the example assets.
