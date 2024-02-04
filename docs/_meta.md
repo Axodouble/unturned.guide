@@ -17,11 +17,11 @@ logo:
 # next to the site logo
 announcement: 
   text: "Help expand this documentation by contributing on Github!"
-  link: "https://github.com/axodouble"
+  link: "https://github.com/axodouble/unturned.guide"
 
 # Social links are shown on the top right of the site
 # next to the CTA button.
-github: "https://github.com/paganotoni/doco" 
+github: "https://github.com/axodouble/unturned.guide" 
 
 # External links go in the top navigation bar.
 external_links:
@@ -43,7 +43,7 @@ quick_links:
 # CTA button shows on the top right of the site.
 # cta: 
 #  text: "Help on Github"
-#  link: "https://github.com/axodouble"
+#  link: "https://github.com/axodouble/unturned.guide"
 
 # Shows on each of the documentation pages
 # $YEAR is replaced with the current year.
