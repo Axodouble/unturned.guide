@@ -15,32 +15,18 @@ favicon: "/assets/favicon.png"
 
 logo:
   src: "/assets/logo.png"
-  link: "https://discord.gg/Xx6WWxUdKS"
-
-# Announcement is shown on the top of the site
-
-# next to the site logo
+  link: "/"
 
 announcement:
   text: "This is incomplete, please help by expanding this!"
   link: "https://github.com/axodouble/unturned.guide"
 
-# Social links are shown on the top right of the site
-
-# next to the CTA button.
-
 github: "https://github.com/axodouble/unturned.guide"
-
-# External links go in the top navigation bar.
 
 external_links:
 
 - text: "Discord"
   link: "https://discord.gg/Xx6WWxUdKS"
-
-# QuickLinks go on top of the left navigation bar and
-
-# show on the quick search modal by default.
 
 quick_links: # Icons use google material icons
 
@@ -51,16 +37,8 @@ quick_links: # Icons use google material icons
   link: "https://discord.gg/Xx6WWxUdKS"
   icon: "forum"
 
-# CTA button shows on the top right of the site.
-
-# cta:
-
-# text: "Help on Github"
-
-# link: "https://github.com/axodouble/unturned.guide"
-
-# Shows on each of the documentation pages
-
-# $YEAR is replaced with the current year.
+cta:
+  text: "Help on Github"
+  link: "https://github.com/axodouble/unturned.guide"
 
 copy: "© $YEAR unturned.guide contributors"
