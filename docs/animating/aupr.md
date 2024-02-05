@@ -15,4 +15,13 @@ Animating with AUPR is a breeze, and it's a great way to get started with animat
 
 ## Getting started
 
-This guide is incomplete, you can help by expanding it.
+To get started with animating, learning how to actually animate in Blender is pretty important, luckily however this is not too hard or complex.
+To start, feel free to watch some youtube tutorials to get the very basics of it set up, as that is pretty important, as we will not be going over keyframing or using the timeline here.
+
+## Actually animating
+
+### Item animation
+
+When animating items, be sure your model is facing the Y axis, and is 0,0,0 on all axis while doing so. If not, move your model to the correct position, then use the apply menu (left ctrl + A) and select “All Transforms”.
+
+Once that is done, copy the model to AUPR, and then you will want to go to the yellow box on the right side of the screen labeled "Object Properties", you'll then want to go to the "Relations" tab, and then select the "Parent" dropdown, and select the parent as to be "IDRight", the item should now appear in the right hand of the character, if that is not the case try again from the beginning.
