@@ -1,26 +1,32 @@
 ---
-title: Animating with AUPR (Incomplete)
+title: Animating Items (WIP)
 index: 1
 ---
 
 ## Introduction
 
+There are 2 methods that work best to animate items, both involve [Blender](https://www.blender.org/).
+
+This guide will (soon) showcase both methods and how to animateq using both methods.
+
+### Getting started
+
+To get started with animating, learning how to actually animate in Blender is pretty important, luckily however this is not too hard or complex.
+To start, feel free to watch some youtube tutorials to get the very basics of it set up, as that is pretty important, as we will not be going over keyframing or using the timeline here.
+
+## Animating with AUPR
+
 Animating with AUPR is a breeze, and it's a great way to get started with animating in Unturned. This guide will help you get started with animating in Unturned using AUPR.
 
-## Prerequisites
+### Prerequisites
 
 [AUPR (Der Ente's Rig)](https://github.com/DerEnte/Advanced-Unturned-Player-Rig)
 
 [Blender](https://www.blender.org/)
 
-## Getting started
+### Actually animating
 
-To get started with animating, learning how to actually animate in Blender is pretty important, luckily however this is not too hard or complex.
-To start, feel free to watch some youtube tutorials to get the very basics of it set up, as that is pretty important, as we will not be going over keyframing or using the timeline here.
-
-## Actually animating
-
-### Item animation
+#### Item animation
 
 When animating items, be sure your model is facing the Y axis, and is 0,0,0 on all axis while doing so. If not, move your model to the correct position, then use the apply menu (left ctrl + A) and select “All Transforms”.
 
