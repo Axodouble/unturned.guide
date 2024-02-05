@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   Build:
-    name: build docs
+    name: Build Documentation and Deploy
     runs-on: ubuntu-latest
     environment:
       name: unturned.guide
@@ -26,11 +26,12 @@ jobs:
       - name: Setup Go (Most Recent @v4 Version)
         uses: actions/setup-go@v4
 
-      - name: Handle doco
-        run: 
-          go install github.com/paganotoni/doco/cmd/doco@latest
-          doco build
-        
+      - name: Install
+        run: go install github.com/paganotoni/doco/cmd/doco@latest
+
+      - name: Build
+        run: doco build
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
