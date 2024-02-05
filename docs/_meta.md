@@ -37,8 +37,4 @@ quick_links: # Icons use google material icons
   link: "https://discord.gg/Xx6WWxUdKS"
   icon: "forum"
 
-cta:
-  text: "Help on Github"
-  link: "https://github.com/axodouble/unturned.guide"
-
 copy: "© $YEAR unturned.guide contributors"
