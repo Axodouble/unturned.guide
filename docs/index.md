@@ -14,3 +14,8 @@ Changes will be and are handled via Github, if you want to contribute, please ch
 ## Contributing
 
 To contribute you can modify the markdown files in the `docs` folder and then once complete you can open a pull request where [@Axodouble](https://github.com/axodouble) will review the changes and merge them into the main branch, feel free to credit yourself in the pull request description and the document itself.
+
+## Credits
+
+All resources here are created and labeled by their respective editors and creators, all information here is free of charge and should not be paid for to know.
+The above statement does not disallow the advertisement of ones commissioning or commissioned services and or goods.
