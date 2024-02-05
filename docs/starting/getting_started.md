@@ -11,7 +11,7 @@ Before you start modding, you will need to have the following installed:
 [(Optional) Blender](https://www.blender.org/) or any other 3D modeling software.
 
 ## Setting up Unity
-+
+
 ### Installing Unity
 Be sure you have Unity installed, if that is not the case, go back to the [Prerequisites](#prerequisites) section and install it.
 
