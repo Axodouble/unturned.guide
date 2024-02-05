@@ -31,5 +31,7 @@ From here on out you will be able to start animating your character, you can adj
 The animations you will be making will differ depending on the item you are making, but all items that can / should be held by players will require the same basic animations: `Equip` & `Use`.
 
 Below will be a (now incomplete) list of all the different animations you will be required to make for items.
+
 Useables (Carjacks, drinks, foods, etc.) : `Equip`, `Use`.
+
 Medicals (Think bloodbags and medkits.) : `Equip`, `Use`, `Aid`.
