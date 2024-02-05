@@ -22,7 +22,7 @@ logo:
 # next to the site logo
 
 announcement:
-  text: "Help expand this documentation by contributing on Github!"
+  text: "This is incomplete, please help by expanding this!"
   link: "https://github.com/axodouble/unturned.guide"
 
 # Social links are shown on the top right of the site
