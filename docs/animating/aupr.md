@@ -40,4 +40,6 @@ Below will be a (now ***incomplete***) list of all the different animations you 
 
 ***Useables*** (*Carjacks*, *drinks*, *foods*, etc.) : `Equip`, `Use`.
 
-***Medicals*** (*Think bloodbags* and *medkits*.) : `Equip`, `Use`, `Aid`.
+***Medicals*** (*Think bloodbags* and *medkits*.) : `Equip`, `Use`, `Aid`(The *Aid* animation is for using the healing item on another player.).
+
+***Melee*** (*Anything that can be used to attack*) : `Equip`, `Weak`, `Strong`, `Inspect`.
