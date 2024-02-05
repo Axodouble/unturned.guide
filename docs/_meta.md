@@ -35,6 +35,12 @@ quick_links: # Icons use google material icons
   icon: "code"
 - text: "Discord"
   link: "https://discord.gg/Xx6WWxUdKS"
-  icon: "forum"
+  icon: "alternate_email"
+- text: "Add a page"
+  link: "https://github.com/Axodouble/unturned.guide/tree/main/docs"
+  icon: "content_copy"
+- text: "Axodouble"
+  link: "https://xdbl.dev/"
+  icon: "person"
 
 copy: "© $YEAR unturned.guide contributors"
