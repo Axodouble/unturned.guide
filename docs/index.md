@@ -20,3 +20,7 @@ To contribute you can modify the markdown files in the `docs` folder and then on
 All resources here are created and labeled by their respective editors and creators, all information here is free of charge and should not be paid for to know.
 
 The above statement does not disallow the advertisement of ones commissioning or commissioned services and or goods.
+
+## W.I.P.
+
+This is a work in progress project, this is incomplete, you can help us by contributing.
